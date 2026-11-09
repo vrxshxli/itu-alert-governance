@@ -1,0 +1,12 @@
+# KB (ITU reference code dependencies; `ollama` is imported by upstream ingest.py even when its embedder is replaced)
+chromadb>=0.5.0
+PyMuPDF>=1.24.0
+pydantic-settings>=2.0.0
+ollama>=0.4.0
+# local embeddings without PyTorch (ONNX backend); sentence-transformers is optional on a laptop
+onnxruntime>=1.17
+tokenizers>=0.15
+numpy>=1.26
+huggingface_hub>=0.24
+openai>=1.40
+pyyaml>=6.0

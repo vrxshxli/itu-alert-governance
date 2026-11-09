@@ -1,0 +1,1848 @@
+{
+ "gaps": [
+  {
+   "gap_id": "G1",
+   "type": "decision_owner_unclear",
+   "description": "The published provisions visible in the record use broad formulations such as warnings being issued by 'authorities', directions from 'TDRA or other competent authority', and action by 'relevant bodies, each according to its competence', but they do not identify the event-specific decision owner for originating, authorising, validating, or directing a UAE-Alert/cell-broadcast warning in an anomalous-alert scenario.",
+   "evidence": [
+    {
+     "chunk_id": "ae-tdra-ts-fs-001:w002",
+     "why": "Describes UAE-Alert as using cell broadcast to disseminate warning alerts issued by authorities, but does not name which authority is competent for a specific alert or anomaly."
+    },
+    {
+     "chunk_id": "ae-tdra-licence-3-2026:art8",
+     "why": "Requires the licensee to comply with directions from TDRA or another competent authority, but leaves the relevant competent authority to be identified outside the passage."
+    },
+    {
+     "chunk_id": "ae-dl-2-2011-ncema-en-unofficial:art13",
+     "why": "Assigns preparedness measures to relevant bodies according to competence in coordination with the Authority, but does not allocate public-alert origination or validation ownership."
+    },
+    {
+     "chunk_id": "ae-dl-2-2011-ncema-en-unofficial:art14",
+     "why": "Refers to relevant bodies warning and guiding the community and dealing with media according to approved strategies, but does not specify which body owns a specific public warning decision."
+    }
+   ],
+   "affected_institutions": [
+    "telecom_operator",
+    "emergency_management",
+    "policy_adviser",
+    "municipal_offices"
+   ],
+   "severity": {
+    "level": "high",
+    "rationale": "Unclear alert decision ownership can delay validation or correction of a public warning that has already reached residents."
+   },
+   "global_comparison": null,
+   "direction": "Clarify, at domain level, the published decision-owner model for public-warning origination, authorisation, validation, and operator-direction, including how the competent authority is identified for a specific alert event.",
+   "source_records": [
+    "cf95f268160520995d6fd88df60b6995ddb21c8c29c49f4348e06643541673b2",
+    "03010025157023c4946539465df18b7a6cf7f6a4703656af663e6effd2e329ae",
+    "c3cf3effbecc0aa7ef0aa6a20932849c0c5e38fc5649ba1771d54679066bff9f",
+    "53557060848d2a6ffbac082db8065eb309dc9ff5ad2eb961ee83514ebf7a8786",
+    "5a39d1cc46cc80d8bf53efe4a91201040ccb4dad49f157b9f4104d554d9db721",
+    "b1bf083cec593604bdd1dfba02f21032c842e3de8955cdd7ab40422455a22815",
+    "613cb917439aca89b8bbdd64dd535d746f9e7f6a0b183a8c42a19ff73474da34",
+    "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+    "20331f004e7c278df3f2b1d50c82828dc406efc6c3cd0402d5876e471c087617",
+    "6a6a5b1273569b43134be6362881c3efe2bb1bba557121b32507110cd56fdb56",
+    "f8304672f068391f97a91b9c6ff7b4415963b0ee990fc7a666b23b5c9c2e68e7",
+    "0f9a1b3c86596bf8ba43e21d566d38a915ab56ccac82caa13bbe67c28eb7c0d7"
+   ],
+   "verified": true,
+   "verifier_notes": "absence supported: cited passages are on topic and do not establish it; a 12-result search of current UAE sources found nothing that does. The passages are on topic because they concern UAE-Alert, public warning, and emergency-response roles, but they do not name a specific event-specific decision "
+  },
+  {
+   "gap_id": "G2",
+   "type": "correction_procedure_not_established",
+   "description": "The published provisions visible in the record support public information, media coordination, and operator compliance with competent-authority directions, but they do not set out a public procedure for cancelling, correcting, retracting, or publicly repudiating an erroneous or unauthorised alert after dissemination.",
+   "evidence": [
+    {
+     "chunk_id": "ae-tdra-ts-fs-001:w003",
+     "why": "Specifies handset behaviour, including that the message indication can be cancelled by the user, but does not provide an authority-led alert cancellation or correction process."
+    },
+    {
+     "chunk_id": "ae-tdra-licence-3-2026:art8",
+     "why": "Requires operator compliance with directions from TDRA or another competent authority, but does not define the correction/cancellation workflow or authorising role."
+    },
+    {
+     "chunk_id": "ae-dl-2-2011-ncema-en-unofficial:art14",
+     "why": "Includes community warning/guidance and media handling among response measures, but does not distinguish initial warnings from false-alert corrections or identify a correction owner."
+    },
+    {
+     "chunk_id": "ae-dl-2-2011-ncema-en-unofficial:art24",
+     "why": "Provides for coordination with media to unify the media message during emergencies, but does not specify a procedure for correcting an erroneous public alert."
+    },
+    {
+     "chunk_id": "ae-dl-2-2011-ncema-en-unofficial:art25",
+     "why": "Provides for public information arrangements and joint media cells, but does not state how a delivered alert is to be cancelled, corrected, or publicly repudiated."
+    }
+   ],
+   "affected_institutions": [
+    "telecom_operator",
+    "emergency_management",
+    "policy_adviser",
+    "municipal_offices"
+   ],
+   "severity": {
+    "level": "high",
+    "rationale": "A missing published correction pathway can leave public-facing roles unable to give timely, authorised clarification during an erroneous-alert incident."
+   },
+   "global_comparison": {
+    "chunk_id": "us-fcc-hawaii-2018:w062",
+    "why": "The reference case describes post-incident measures including false-alarm correction templates and protocols/training for how to issue a correction, illustrating a documented correction-control approach."
+   },
+   "direction": "Publish domain-level correction and cancellation procedures covering who may authorise a correction, how operators receive the instruction, what public message channels are used, and how the correction relates to alerts already displayed on devices.",
+   "source_records": [
+    "cf95f268160520995d6fd88df60b6995ddb21c8c29c49f4348e06643541673b2",
+    "03010025157023c4946539465df18b7a6cf7f6a4703656af663e6effd2e329ae",
+    "c3cf3effbecc0aa7ef0aa6a20932849c0c5e38fc5649ba1771d54679066bff9f",
+    "78e1c5f33b93378d02b005043a6b6759beb45536334fd7b360caf65caa342d03",
+    "e8e04e87b29439dda958cda714cb986d7f8f53c54bbb131801eeccee01872e37",
+    "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+    "20331f004e7c278df3f2b1d50c82828dc406efc6c3cd0402d5876e471c087617",
+    "6a6a5b1273569b43134be6362881c3efe2bb1bba557121b32507110cd56fdb56",
+    "f8304672f068391f97a91b9c6ff7b4415963b0ee990fc7a666b23b5c9c2e68e7",
+    "239d1629d5da22f6b2d25f74866b1ca5ea1409fd5eccf563809e914a26fc72a9",
+    "f7b631e5d8f4582e8b6d0ec4af2a47375241a2d1692d3c71702e40ff00cabdb1",
+    "0f9a1b3c86596bf8ba43e21d566d38a915ab56ccac82caa13bbe67c28eb7c0d7"
+   ],
+   "verified": true,
+   "verifier_notes": "absence supported: cited passages are on topic and do not establish it; a 12-result search of current UAE sources found nothing that does. The passages are about emergency alert delivery, operator compliance, and coordinated public information/media handling, but they do not identify a specific own"
+  },
+  {
+   "gap_id": "G3",
+   "type": "interface_unclear",
+   "description": "The published framework visible in the record does not make clear the operational interface and audit requirements by which a telecom operator or shared alert gateway can confirm the authenticated alert originator and authorised request path across operators.",
+   "evidence": [
+    {
+     "chunk_id": "ae-tdra-ts-fs-001:w002",
+     "why": "Explains that UAE-Alert uses mobile networks and cell broadcast for authority-issued warnings, but does not specify authenticated-originator fields, request-path logging, or cross-operator gateway audit requirements."
+    },
+    {
+     "chunk_id": "ae-tdra-licence-3-2026:art6:p2",
+     "why": "Addresses licensee information and reports to TDRA by authorised employees and TDRA access to licensee information, but does not define real-time alert-origin authentication or gateway attribution data."
+    },
+    {
+     "chunk_id": "ae-tdra-licence-3-2026:art12:p2",
+     "why": "Requires resilience, contingency testing, technical capability, and records for network operation, but does not identify public-alert originator authentication controls."
+    },
+    {
+     "chunk_id": "ae-dl-2-2011-ncema-en-unofficial:art26",
+     "why": "Requires liaison personnel for coordination and information flow, but does not establish the technical interface needed to verify which body originated or authorised an alert."
+    }
+   ],
+   "affected_institutions": [
+    "telecom_operator",
+    "emergency_management",
+    "policy_adviser",
+    "gateway_administrators",
+    "other_operators"
+   ],
+   "severity": {
+    "level": "high",
+    "rationale": "Without a clear origin-authentication and audit interface, authorised roles may be unable to distinguish a valid alert from an anomalous or unauthorised message."
+   },
+   "global_comparison": {
+    "chunk_id": "us-fcc-hawaii-2018:w048",
+    "why": "The reference passage notes individualized login credentials and alert-cancellation functionality in alert-origination software, showing how another system can implement originator-level controls."
+   },
+   "direction": "Clarify domain-level technical and procedural interface requirements for authenticated alert originator identity, authorised request logging, shared-gateway attribution, and cross-operator confirmation.",
+   "source_records": [
+    "cf95f268160520995d6fd88df60b6995ddb21c8c29c49f4348e06643541673b2",
+    "5a39d1cc46cc80d8bf53efe4a91201040ccb4dad49f157b9f4104d554d9db721",
+    "b1bf083cec593604bdd1dfba02f21032c842e3de8955cdd7ab40422455a22815",
+    "613cb917439aca89b8bbdd64dd535d746f9e7f6a0b183a8c42a19ff73474da34",
+    "239d1629d5da22f6b2d25f74866b1ca5ea1409fd5eccf563809e914a26fc72a9"
+   ],
+   "verified": true,
+   "verifier_notes": "absence supported: cited passages are on topic and do not establish it; a 12-result search of current UAE sources found nothing that does. The passages are on topic because they discuss UAE-Alert/cell broadcast emergency coordination, authorized reporting, and liaison/testing obligations, but they "
+  },
+  {
+   "gap_id": "G4",
+   "type": "interface_unclear",
+   "description": "The published coordination provisions visible in the record do not provide a clear verification and escalation interface for municipal or other public-facing offices that receive resident questions about an unconfirmed alert and have no official-channel instruction.",
+   "evidence": [
+    {
+     "chunk_id": "ae-dl-2-2011-ncema-en-unofficial:art23",
+     "why": "Provides for information exchange between bodies and escalation where information is refused, but does not set a public-alert authenticity verification route for municipal offices."
+    },
+    {
+     "chunk_id": "ae-dl-2-2011-ncema-en-unofficial:art24",
+     "why": "Provides for media coordination to unify the message, but does not identify how local offices authenticate a reported alert before advising residents."
+    },
+    {
+     "chunk_id": "ae-dl-2-2011-ncema-en-unofficial:art25",
+     "why": "Addresses arrangements for public information and joint media cells, but does not specify an alert-verification contact, trigger, or escalation channel for unconfirmed alerts."
+    },
+    {
+     "chunk_id": "ae-dl-2-2011-ncema-en-unofficial:art26",
+     "why": "Requires liaison personnel to operations centres for coordination and information, but does not define the specific path for verifying alert genuineness in a municipal inquiry scenario."
+    }
+   ],
+   "affected_institutions": [
+    "municipal_offices",
+    "emergency_management",
+    "policy_adviser",
+    "telecom_operator"
+   ],
+   "severity": {
+    "level": "medium",
+    "rationale": "Unclear verification channels can delay consistent public messaging, though the published framework does contain general coordination and liaison mechanisms."
+   },
+   "global_comparison": {
+    "chunk_id": "us-fcc-hawaii-2018:w067",
+    "why": "The reference recommendations call for documented procedures and redundant lines of communication with key stakeholders, illustrating an approach to stakeholder coordination during alert events."
+   },
+   "direction": "Clarify domain-level verification and escalation channels for local public-facing bodies, including how to request authenticity confirmation, who can approve interim holding lines, and how official instructions are distributed.",
+   "source_records": [
+    "0e88a2e6b399d368036aa0dd7be5eaa6beab3201ca783fcdeeca51ed72c094d3",
+    "adcefd842683d81eb48d0686341821e6aba2c99133e973bcc8abec41b700b2e9",
+    "7d1420835f49641e5905719113acb9cdf9f9d6a3d2b5fbd0611e617ffa8e7fb5",
+    "0e9c45163d656fc4b5bc7ecc700ecbe5f90f482bd44fcf23969165bf9616012d",
+    "6a6a5b1273569b43134be6362881c3efe2bb1bba557121b32507110cd56fdb56",
+    "f8304672f068391f97a91b9c6ff7b4415963b0ee990fc7a666b23b5c9c2e68e7"
+   ],
+   "verified": true,
+   "verifier_notes": "absence supported: cited passages are on topic and do not establish it; a 12-result search of current UAE sources found nothing that does. The provisions are on topic because they address information exchange, public messaging, and liaison coordination, but they do not specifically establish a name"
+  },
+  {
+   "gap_id": "G5",
+   "type": "ambiguous_provision",
+   "description": "The technical materials visible in the record distinguish emergency, warning, and test alert categories at the device/message-ID level, but the published provisions do not clearly set out governance controls for preventing internal tests from reaching live public cell groups or for supervising live/test transitions.",
+   "evidence": [
+    {
+     "chunk_id": "ae-tdra-uae-alert-table:w002",
+     "why": "Lists emergency, warning, and test alert classes and behaviours, showing category separation at the message-ID/device level but not operational controls for internal tests."
+    },
+    {
+     "chunk_id": "ae-tdra-ts-fs-001:w003",
+     "why": "Requires emergency alerts to be immediately recognisable and not mistaken for ordinary messages, but does not address approval or segregation safeguards for test messages before live broadcast."
+    },
+    {
+     "chunk_id": "ae-tdra-licence-3-2026:art12:p2",
+     "why": "Requires network resilience, contingency arrangements, and testing records, but does not specifically govern public-warning test/live access controls or supervisory approval."
+    }
+   ],
+   "affected_institutions": [
+    "telecom_operator",
+    "gateway_administrators",
+    "emergency_management",
+    "policy_adviser"
+   ],
+   "severity": {
+    "level": "medium",
+    "rationale": "A test/live control ambiguity can contribute to erroneous public dissemination, but the record shows the issue mainly through a technical-fault scenario rather than a fully established policy conflict."
+   },
+   "global_comparison": {
+    "chunk_id": "us-fcc-hawaii-2018:w066",
+    "why": "The reference recommendations call for distinguishable test language, protocols governing tests and corrections, and supervisor approval for internal tests and proficiency training."
+   },
+   "direction": "Clarify domain-level governance for public-warning test environments, including live/test segregation, approval requirements, message labelling, gateway configuration controls, and post-test assurance.",
+   "source_records": [
+    "e8e04e87b29439dda958cda714cb986d7f8f53c54bbb131801eeccee01872e37",
+    "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+    "20331f004e7c278df3f2b1d50c82828dc406efc6c3cd0402d5876e471c087617"
+   ],
+   "verified": true,
+   "verifier_notes": "The passages do distinguish emergency, warning, and test alert categories at the handset/channel level, including different message IDs and behavior. However, they do not clearly state governance controls for preventing internal tests from reaching live public cell groups or for supervising live/test transitions; the testing language is general and does not address that specific control."
+  }
+ ],
+ "documentation_limitations": [
+  {
+   "record": "cf95f268160520995d6fd88df60b6995ddb21c8c29c49f4348e06643541673b2",
+   "event_id": "E1",
+   "agent": "telecom_operator",
+   "why": "The retrieved passages do not identify which authority is the competent authority for this specific public-warning event, who the alert originator is, or the procedure for correcting or cancelling an alert already broadcast."
+  },
+  {
+   "record": "03010025157023c4946539465df18b7a6cf7f6a4703656af663e6effd2e329ae",
+   "event_id": "E1+followup",
+   "agent": "emergency_management",
+   "why": "The retrieved passages do not provide a procedure for correcting, cancelling, or otherwise handling an erroneous emergency-labelled cell broadcast, and the implementing regulation that may classify events and assign detailed roles is not included in the retrieved materials."
+  },
+  {
+   "record": "c3cf3effbecc0aa7ef0aa6a20932849c0c5e38fc5649ba1771d54679066bff9f",
+   "event_id": "E1+followup",
+   "agent": "policy_adviser",
+   "why": "The UAE passages provided include technical/device specifications and unofficial non-authoritative translations, but no authoritative published UAE procedure for alert anomaly handling, cancellation, correction, attribution, or escalation."
+  },
+  {
+   "record": "53557060848d2a6ffbac082db8065eb309dc9ff5ad2eb961ee83514ebf7a8786",
+   "event_id": "E2",
+   "agent": "emergency_management",
+   "why": "The retrieved material says the Implementing Regulation determines event classification and relevant-body roles, but that regulation is not provided here; therefore I cannot classify this event or state detailed body-specific alert-correction procedures."
+  },
+  {
+   "record": "65862fc513bd2d6a552388a9c8b517e5df22c0a8df454e105aa46362021eb2f8",
+   "event_id": "E2+followup",
+   "agent": "telecom_operator",
+   "why": "The retrieved public passages establish UAE-Alert/cell-broadcast technical context and operator compliance duties for competent-authority directions, but they do not identify the competent public-warning authority, the alert originator for this event, or any public cancellation/correction procedure."
+  },
+  {
+   "record": "f43a2cdbaa329e8a2b73e13fb645d4d0ad0be68df343f1164aeb1354357d5bb8",
+   "event_id": "E2+followup",
+   "agent": "policy_adviser",
+   "why": "Several UAE passages are marked as unofficial, non-authoritative English translations, and the retrieved material does not include the Executive Regulation or the specific approved media/public-information strategies that would identify the exact approving authority and content rules."
+  },
+  {
+   "record": "5a39d1cc46cc80d8bf53efe4a91201040ccb4dad49f157b9f4104d554d9db721",
+   "event_id": "E3",
+   "agent": "telecom_operator",
+   "why": "The retrieved passages refer to alerts issued by authorities and to TDRA or other competent authorities, but they do not identify the specific competent authority or alert originator for this message, nor do they provide a cancellation or correction procedure."
+  },
+  {
+   "record": "b1bf083cec593604bdd1dfba02f21032c842e3de8955cdd7ab40422455a22815",
+   "event_id": "E3+followup",
+   "agent": "emergency_management",
+   "why": "The retrieved legal provisions for this body are unofficial English translations, and the retrieved materials do not include the Executive Regulation or any documented procedure for correcting or cancelling an erroneous alert."
+  },
+  {
+   "record": "613cb917439aca89b8bbdd64dd535d746f9e7f6a0b183a8c42a19ff73474da34",
+   "event_id": "E3+followup",
+   "agent": "policy_adviser",
+   "why": "The retrieved public passages do not include an authenticated-originator list, an alert correction/cancellation SOP, or the Executive Regulation referenced in the unofficial NCEMA translation."
+  },
+  {
+   "record": "0e88a2e6b399d368036aa0dd7be5eaa6beab3201ca783fcdeeca51ed72c094d3",
+   "event_id": "E4",
+   "agent": "emergency_management",
+   "why": "The retrieved passages do not provide the Executive Regulation or any public procedure for correcting, cancelling, validating, or handling an erroneous public alert."
+  },
+  {
+   "record": "adcefd842683d81eb48d0686341821e6aba2c99133e973bcc8abec41b700b2e9",
+   "event_id": "E4",
+   "agent": "policy_adviser",
+   "why": "The retrieved UAE passages do not provide a complete published procedure for how a municipal office should authenticate an uncertain public alert when it has received no official-channel instruction."
+  },
+  {
+   "record": "78e1c5f33b93378d02b005043a6b6759beb45536334fd7b360caf65caa342d03",
+   "event_id": "E4+followup",
+   "agent": "telecom_operator",
+   "why": "The retrieved passages do not establish which authority is the alert originator for this Northvale scenario or any published cancellation/correction procedure for an already broadcast alert."
+  },
+  {
+   "record": "7d1420835f49641e5905719113acb9cdf9f9d6a3d2b5fbd0611e617ffa8e7fb5",
+   "event_id": "E4+followup",
+   "agent": "policy_adviser",
+   "why": "Key UAE emergency-management provisions supplied from Federal Decree-Law No. (2) of 2011 are marked as unofficial, non-authoritative English translations, and the Executive Regulation allocating detailed roles was not provided."
+  },
+  {
+   "record": "0e9c45163d656fc4b5bc7ecc700ecbe5f90f482bd44fcf23969165bf9616012d",
+   "event_id": "E4+followup",
+   "agent": "emergency_management",
+   "why": "No retrieved passage provides a procedure for correcting or cancelling an erroneous, false, inappropriate, or unverified public alert, and the Executive Regulation assigning event classifications and body-specific roles is not available in the retrieved material."
+  },
+  {
+   "record": "e8e04e87b29439dda958cda714cb986d7f8f53c54bbb131801eeccee01872e37",
+   "event_id": "E5",
+   "agent": "telecom_operator",
+   "why": "The retrieved passages do not provide a cancellation or correction procedure for an alert already delivered to handsets."
+  },
+  {
+   "record": "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+   "event_id": "E5+followup",
+   "agent": "emergency_management",
+   "why": "The retrieved passages do not provide a procedure for correcting or cancelling an erroneous public alert, and the Implementing Regulation that determines classifications and roles is not included in the retrieved materials."
+  },
+  {
+   "record": "20331f004e7c278df3f2b1d50c82828dc406efc6c3cd0402d5876e471c087617",
+   "event_id": "E5+followup",
+   "agent": "policy_adviser",
+   "why": "The retrieved public UAE passages describe technical enablement and handset behaviour, but do not establish a published correction, cancellation, or recall procedure for a delivered UAE-Alert cell broadcast."
+  },
+  {
+   "record": "6a6a5b1273569b43134be6362881c3efe2bb1bba557121b32507110cd56fdb56",
+   "event_id": "E6",
+   "agent": "emergency_management",
+   "why": "Several key provisions are available here only through an unofficial, non-authoritative English translation, and the retrieved material does not include the Implementing Regulation that determines detailed classification, responsibilities, and roles."
+  },
+  {
+   "record": "f8304672f068391f97a91b9c6ff7b4415963b0ee990fc7a666b23b5c9c2e68e7",
+   "event_id": "E6",
+   "agent": "policy_adviser",
+   "why": "The relevant UAE emergency-management provisions supplied are unofficial, non-authoritative English translations, and the Executive Regulation said to determine roles and responsibilities is not included in the retrieved passages."
+  },
+  {
+   "record": "239d1629d5da22f6b2d25f74866b1ca5ea1409fd5eccf563809e914a26fc72a9",
+   "event_id": "E6+followup",
+   "agent": "telecom_operator",
+   "why": "The retrieved passages establish UAE-Alert cell-broadcast dissemination of authority-issued warnings, but do not identify which authority is the competent authority or alert originator for this event, and do not provide a cancellation or correction procedure."
+  },
+  {
+   "record": "f7b631e5d8f4582e8b6d0ec4af2a47375241a2d1692d3c71702e40ff00cabdb1",
+   "event_id": "E6+followup",
+   "agent": "policy_adviser",
+   "why": "The relevant UAE provisions refer to Executive Regulations, Board-approved media strategies/policies, response plans, and competent-authority directions, but those instruments or directions are not present in the retrieved passages."
+  },
+  {
+   "record": "0f9a1b3c86596bf8ba43e21d566d38a915ab56ccac82caa13bbe67c28eb7c0d7",
+   "event_id": "E6+followup",
+   "agent": "emergency_management",
+   "why": "The retrieved Article 12 refers to an Implementing Regulation determining classifications and the roles of relevant bodies, but that regulation is not available in the retrieved passages."
+  }
+ ],
+ "held_up_well": [
+  {
+   "record": "cf95f268160520995d6fd88df60b6995ddb21c8c29c49f4348e06643541673b2",
+   "event_id": "E1",
+   "agent": "telecom_operator",
+   "claim": "The national public warning service described as UAE-Alert uses cell broadcast technology to disseminate warning alerts issued by authorities to the public in times of crisis.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "cf95f268160520995d6fd88df60b6995ddb21c8c29c49f4348e06643541673b2",
+   "event_id": "E1",
+   "agent": "telecom_operator",
+   "claim": "Cell Broadcast Service is described as broadcasting messages to mobile phones of a large number of people in a specific location within a specific time frame, with the area ranging from one cell to the entire network.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "cf95f268160520995d6fd88df60b6995ddb21c8c29c49f4348e06643541673b2",
+   "event_id": "E1",
+   "agent": "telecom_operator",
+   "claim": "If a competent authority declares that a public emergency has arisen, the licensee must comply with directions from the TDRA or other competent authority concerning the licensee's property or its use or operation.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "cf95f268160520995d6fd88df60b6995ddb21c8c29c49f4348e06643541673b2",
+   "event_id": "E1",
+   "agent": "telecom_operator",
+   "claim": "The licensee must comply with directions issued by the TDRA or other competent authority on matters relating to public interest, safety, and/or national security.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "cf95f268160520995d6fd88df60b6995ddb21c8c29c49f4348e06643541673b2",
+   "event_id": "E1",
+   "agent": "telecom_operator",
+   "claim": "The licensee must develop, maintain, and regularly enhance technical capabilities to ensure effective operation, management, and restoration of its telecommunications network under emergency and contingency conditions.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art12:p2"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "03010025157023c4946539465df18b7a6cf7f6a4703656af663e6effd2e329ae",
+   "event_id": "E1+followup",
+   "agent": "emergency_management",
+   "claim": "Based on an UNOFFICIAL TRANSLATION, NON-AUTHORITATIVE English text, the Authority is competent to manage emergencies, crises and disasters through coordination and cooperation with relevant bodies, and to coordinate the roles of relevant bodies when emergencies, crises or disasters occur.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art5"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "03010025157023c4946539465df18b7a6cf7f6a4703656af663e6effd2e329ae",
+   "event_id": "E1+followup",
+   "agent": "emergency_management",
+   "claim": "Based on an UNOFFICIAL TRANSLATION, NON-AUTHORITATIVE English text, the Authority coordinates with print, audio and visual media to unify the media message during emergencies, crises or disasters.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art24"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "03010025157023c4946539465df18b7a6cf7f6a4703656af663e6effd2e329ae",
+   "event_id": "E1+followup",
+   "agent": "emergency_management",
+   "claim": "Based on an UNOFFICIAL TRANSLATION, NON-AUTHORITATIVE English text, the Authority establishes arrangements to provide information on situation developments and means of protecting the population, including information understandable to people not proficient in Arabic and persons with special needs.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art25"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "03010025157023c4946539465df18b7a6cf7f6a4703656af663e6effd2e329ae",
+   "event_id": "E1+followup",
+   "agent": "emergency_management",
+   "claim": "Based on an UNOFFICIAL TRANSLATION, NON-AUTHORITATIVE English text, bodies are obliged to provide information requested by the Authority or its Board of Directors, and requests refused between bodies may be submitted to the Authority to take necessary action.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art23"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "03010025157023c4946539465df18b7a6cf7f6a4703656af663e6effd2e329ae",
+   "event_id": "E1+followup",
+   "agent": "emergency_management",
+   "claim": "Based on an UNOFFICIAL TRANSLATION, NON-AUTHORITATIVE English text, all entities must provide liaison personnel to the relevant operations centre for coordination, communication and providing necessary information.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art26"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "03010025157023c4946539465df18b7a6cf7f6a4703656af663e6effd2e329ae",
+   "event_id": "E1+followup",
+   "agent": "emergency_management",
+   "claim": "Based on an UNOFFICIAL TRANSLATION, NON-AUTHORITATIVE English text, the National Security Adviser may issue directives determining the emergency level and activating emergency, crisis and disaster management teams at local or national level.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art15"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "03010025157023c4946539465df18b7a6cf7f6a4703656af663e6effd2e329ae",
+   "event_id": "E1+followup",
+   "agent": "emergency_management",
+   "claim": "The official English translation, with Arabic text prevailing, states that the Federal Authority for Ambulance and Civil Defense is competent in ambulance and civil defense affairs and includes as a competence establishing a public warning system for the population against potential hazards, in coordination with the National Emergency, Crisis and Disasters Management Authority.",
+   "cited_chunk_ids": [
+    "ae-dl-8-2025-faacd:art4:p1"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "03010025157023c4946539465df18b7a6cf7f6a4703656af663e6effd2e329ae",
+   "event_id": "E1+followup",
+   "agent": "emergency_management",
+   "claim": "The TDRA technical specification describes UAE-Alert as a public warning service using cell broadcast technology to disseminate warning alerts issued by authorities to the public in times of crisis.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "03010025157023c4946539465df18b7a6cf7f6a4703656af663e6effd2e329ae",
+   "event_id": "E1+followup",
+   "agent": "emergency_management",
+   "claim": "The TDRA technical specification requires handsets to receive all emergency alerts by default, to make emergency alerts immediately recognizable, and to support receiving and displaying emergency alerts in Arabic and English.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w003"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "c3cf3effbecc0aa7ef0aa6a20932849c0c5e38fc5649ba1771d54679066bff9f",
+   "event_id": "E1+followup",
+   "agent": "policy_adviser",
+   "claim": "TDRA TS FS 001 describes UAE-Alert as a Public Warning Service using cell broadcast technology to disseminate warning alerts issued by authorities, and states that the main scope of the specification is to enable Cell Broadcast service in all mobile devices operating in UAE mobile networks.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "c3cf3effbecc0aa7ef0aa6a20932849c0c5e38fc5649ba1771d54679066bff9f",
+   "event_id": "E1+followup",
+   "agent": "policy_adviser",
+   "claim": "TDRA TS FS 001 specifies UAE-Alert cell-broadcast message IDs and alert classes for feature phones, including National Emergency Alert, Emergency Alert, Warning Alert, Public Safety Alert, and Test Alert categories.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w004"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "c3cf3effbecc0aa7ef0aa6a20932849c0c5e38fc5649ba1771d54679066bff9f",
+   "event_id": "E1+followup",
+   "agent": "policy_adviser",
+   "claim": "The unofficial, non-authoritative English translation of Federal Decree-Law No. 2 of 2011 states that relevant bodies, each according to its competence, shall take necessary measures to implement emergency, crisis and disaster response and recovery plans in coordination with the Authority, including warning and guiding members of the community; it also states that the Executive Regulation determines the roles and responsibilities of relevant bodies.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art14"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "c3cf3effbecc0aa7ef0aa6a20932849c0c5e38fc5649ba1771d54679066bff9f",
+   "event_id": "E1+followup",
+   "agent": "policy_adviser",
+   "claim": "The unofficial, non-authoritative English translation of Federal Decree-Law No. 2 of 2011 states that all entities shall provide liaison personnel to the concerned emergency, crisis and disaster operations centre for coordination, communication, and provision of necessary information.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art26"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "c3cf3effbecc0aa7ef0aa6a20932849c0c5e38fc5649ba1771d54679066bff9f",
+   "event_id": "E1+followup",
+   "agent": "policy_adviser",
+   "claim": "As a global comparison, ITU-T CAP guidance describes a false-alarm scenario in which officials issue a cancellation message referring directly to the erroneous prior alert, after which systems stop delivering, broadcast a cancellation, or reset depending on system type.",
+   "cited_chunk_ids": [
+    "itu-x1303bis-cap:w018"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "c3cf3effbecc0aa7ef0aa6a20932849c0c5e38fc5649ba1771d54679066bff9f",
+   "event_id": "E1+followup",
+   "agent": "policy_adviser",
+   "claim": "As a global comparison, the FCC Hawaii false-alert report explains that a cancellation instruction to downstream EAS and WEA equipment ceases retransmission, but does not generate a new alert transmission and does not recall messages already transmitted and displayed.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w033"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "c3cf3effbecc0aa7ef0aa6a20932849c0c5e38fc5649ba1771d54679066bff9f",
+   "event_id": "E1+followup",
+   "agent": "policy_adviser",
+   "claim": "As a global comparison, the FCC Hawaii false-alert report states that alert origination software vendors interviewed offered the ability to cancel an erroneously sent alert with a single clearly presented button, and that Hawaii later created templates for EAS and WEA messages to correct a false alarm.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w048",
+    "us-fcc-hawaii-2018:w062"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "53557060848d2a6ffbac082db8065eb309dc9ff5ad2eb961ee83514ebf7a8786",
+   "event_id": "E2",
+   "agent": "emergency_management",
+   "claim": "Using the non-authoritative unofficial English translation, the Authority is competent, subject to the competencies of relevant bodies, to manage emergencies, crises and disasters through coordination and cooperation with relevant bodies and to coordinate the roles of relevant bodies when emergencies, crises or disasters occur.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art5"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "53557060848d2a6ffbac082db8065eb309dc9ff5ad2eb961ee83514ebf7a8786",
+   "event_id": "E2",
+   "agent": "emergency_management",
+   "claim": "Using the non-authoritative unofficial English translation, the Authority shall establish arrangements to provide information on situation developments and means of protecting the population, including information understandable to people not proficient in Arabic and persons with special needs.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art25"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "53557060848d2a6ffbac082db8065eb309dc9ff5ad2eb961ee83514ebf7a8786",
+   "event_id": "E2",
+   "agent": "emergency_management",
+   "claim": "Using the non-authoritative unofficial English translation, government bodies, the private sector and public benefit associations are obliged to provide the Authority with information and updates, and all bodies are obliged to provide information requested by the Authority or its Board of Directors.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art23"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "53557060848d2a6ffbac082db8065eb309dc9ff5ad2eb961ee83514ebf7a8786",
+   "event_id": "E2",
+   "agent": "emergency_management",
+   "claim": "Using the non-authoritative unofficial English translation, all entities shall provide liaison personnel to the concerned operations centre for coordination, communication and providing necessary information.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art26"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "53557060848d2a6ffbac082db8065eb309dc9ff5ad2eb961ee83514ebf7a8786",
+   "event_id": "E2",
+   "agent": "emergency_management",
+   "claim": "The official English translation states that the Federal Authority for Ambulance and Civil Defense is the federal entity competent in ambulance and civil defense affairs, and that it shall establish a public warning system for the population against potential hazards in coordination with the National Emergency, Crisis and Disasters Management Authority; the Arabic text prevails.",
+   "cited_chunk_ids": [
+    "ae-dl-8-2025-faacd:art4:p1"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "53557060848d2a6ffbac082db8065eb309dc9ff5ad2eb961ee83514ebf7a8786",
+   "event_id": "E2",
+   "agent": "emergency_management",
+   "claim": "Using the non-authoritative unofficial English translation, the National Security Adviser may issue directives determining the level of the emergency and activating emergency, crisis and disaster management teams at the local or national level whenever necessary.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art15"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "53557060848d2a6ffbac082db8065eb309dc9ff5ad2eb961ee83514ebf7a8786",
+   "event_id": "E2",
+   "agent": "emergency_management",
+   "claim": "Using the non-authoritative unofficial English translation, the Implementing Regulation determines the classification of emergency, crisis and disaster situations and the responsibilities and roles of relevant bodies according to the plans.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art12"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "53557060848d2a6ffbac082db8065eb309dc9ff5ad2eb961ee83514ebf7a8786",
+   "event_id": "E2",
+   "agent": "emergency_management",
+   "claim": "TDRA Technical Specification TS FS 001 describes UAE-Alert as using cell broadcast technology to disseminate warning alerts issued by authorities to the public in times of crisis, and defines Cell Broadcast Service as broadcasting messages to mobile phones of many citizens in a specific location within a specific timeframe.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "65862fc513bd2d6a552388a9c8b517e5df22c0a8df454e105aa46362021eb2f8",
+   "event_id": "E2+followup",
+   "agent": "telecom_operator",
+   "claim": "UAE-Alert is described as a public warning service using cell broadcast technology to disseminate warning alerts issued by authorities to the public in times of crisis, with mobile networks in the UAE through Cell Broadcast technology identified as one channel.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "65862fc513bd2d6a552388a9c8b517e5df22c0a8df454e105aa46362021eb2f8",
+   "event_id": "E2+followup",
+   "agent": "telecom_operator",
+   "claim": "Cell Broadcast Service is described as broadcasting messages to mobile phones of a large number of citizens in a specific location within a specific time frame, with the area ranging from as small as one cell to as large as the entire network.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "65862fc513bd2d6a552388a9c8b517e5df22c0a8df454e105aa46362021eb2f8",
+   "event_id": "E2+followup",
+   "agent": "telecom_operator",
+   "claim": "If a competent authority declares that a public emergency has arisen, the licensee must comply with directions from TDRA or another competent authority with respect to the licensee’s property or its use or operation.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "65862fc513bd2d6a552388a9c8b517e5df22c0a8df454e105aa46362021eb2f8",
+   "event_id": "E2+followup",
+   "agent": "telecom_operator",
+   "claim": "The licensee must comply with directions issued by TDRA or another competent authority on matters relating to public interest, safety, and/or national security.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "65862fc513bd2d6a552388a9c8b517e5df22c0a8df454e105aa46362021eb2f8",
+   "event_id": "E2+followup",
+   "agent": "telecom_operator",
+   "claim": "The licensee must develop, maintain, and regularly enhance technical capabilities to ensure effective operation, management, and restoration of its telecommunications network under emergency and contingency conditions.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art12:p2"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "65862fc513bd2d6a552388a9c8b517e5df22c0a8df454e105aa46362021eb2f8",
+   "event_id": "E2+followup",
+   "agent": "telecom_operator",
+   "claim": "The technical specification says mobile devices must support receiving and displaying emergency alerts in Arabic and English, and that handsets are required to receive and present emergency alerts in languages as issued by the Alert Originator.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w003"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "f43a2cdbaa329e8a2b73e13fb645d4d0ad0be68df343f1164aeb1354357d5bb8",
+   "event_id": "E2+followup",
+   "agent": "policy_adviser",
+   "claim": "The UAE Decree-Law No. (2) of 2011 text supplied for Article 14 is marked as an unofficial, non-authoritative English translation; it says relevant bodies, each according to its competence, take response and recovery measures in coordination with the Authority, including warning and guiding the community and dealing with the media according to clear strategies and policies approved by the Board of Directors, while the Executive Regulation determines roles and responsibilities.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art14"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "f43a2cdbaa329e8a2b73e13fb645d4d0ad0be68df343f1164aeb1354357d5bb8",
+   "event_id": "E2+followup",
+   "agent": "policy_adviser",
+   "claim": "The UAE Decree-Law No. (2) of 2011 text supplied for Article 12 is marked as an unofficial, non-authoritative English translation; it says emergencies, crises and disasters are classified into levels, responsibilities at national and local levels are determined according to that classification, and preparedness and response plans are a main reference and unified national mechanism for actions and measures.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art12"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "f43a2cdbaa329e8a2b73e13fb645d4d0ad0be68df343f1164aeb1354357d5bb8",
+   "event_id": "E2+followup",
+   "agent": "policy_adviser",
+   "claim": "The UAE Decree-Law No. (2) of 2011 text supplied for Article 5 is marked as an unofficial, non-authoritative English translation; it describes the Authority as participating in preparing and coordinating strategic and response plans, managing emergencies, crises and disasters through coordination and cooperation with relevant bodies, and coordinating the roles of relevant bodies when emergencies, crises or disasters occur.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art5"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "f43a2cdbaa329e8a2b73e13fb645d4d0ad0be68df343f1164aeb1354357d5bb8",
+   "event_id": "E2+followup",
+   "agent": "policy_adviser",
+   "claim": "The official English translation supplied for Federal Decree by Law No. (8) of 2025 says the Federal Authority for Ambulance and Civil Defense is the federal entity competent in ambulance and civil defense affairs and includes among its competences establishing a public warning system for the population against potential hazards in coordination with the National Emergency, Crisis and Disasters Management Authority.",
+   "cited_chunk_ids": [
+    "ae-dl-8-2025-faacd:art4:p1"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "f43a2cdbaa329e8a2b73e13fb645d4d0ad0be68df343f1164aeb1354357d5bb8",
+   "event_id": "E2+followup",
+   "agent": "policy_adviser",
+   "claim": "As a comparison only, the CAP 1.2 recommendation describes a false-alarm scenario in which, after officials determine an alert is inappropriate, they issue a cancellation message referring directly to the erroneous prior alert; this is not a UAE mandate.",
+   "cited_chunk_ids": [
+    "itu-x1303bis-cap:w018"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "f43a2cdbaa329e8a2b73e13fb645d4d0ad0be68df343f1164aeb1354357d5bb8",
+   "event_id": "E2+followup",
+   "agent": "policy_adviser",
+   "claim": "As a comparison only, the FCC Hawaii false-alert report recommended that jurisdictions develop standard operating procedures for false alerts, including corrections over the same systems used for the false alert and procedures for notifying the media; this is not a UAE mandate.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w066"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "5a39d1cc46cc80d8bf53efe4a91201040ccb4dad49f157b9f4104d554d9db721",
+   "event_id": "E3",
+   "agent": "telecom_operator",
+   "claim": "UAE-Alert is described as a public warning service that uses cell broadcast through UAE mobile networks to disseminate warning alerts issued by authorities.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "5a39d1cc46cc80d8bf53efe4a91201040ccb4dad49f157b9f4104d554d9db721",
+   "event_id": "E3",
+   "agent": "telecom_operator",
+   "claim": "The licence provides that if a competent authority declares a public emergency, the licensee must comply with directions given by TDRA or another competent authority regarding the licensee’s property or its use or operation.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "5a39d1cc46cc80d8bf53efe4a91201040ccb4dad49f157b9f4104d554d9db721",
+   "event_id": "E3",
+   "agent": "telecom_operator",
+   "claim": "The licence provides that the licensee must comply with directions issued by TDRA or another competent authority on matters relating to public interest, safety, and/or national security.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "5a39d1cc46cc80d8bf53efe4a91201040ccb4dad49f157b9f4104d554d9db721",
+   "event_id": "E3",
+   "agent": "telecom_operator",
+   "claim": "The licence requires the licensee to maintain technical capabilities for effective operation, management, and restoration of its telecommunications network under emergency and contingency conditions.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art12:p2"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "5a39d1cc46cc80d8bf53efe4a91201040ccb4dad49f157b9f4104d554d9db721",
+   "event_id": "E3",
+   "agent": "telecom_operator",
+   "claim": "Information or reports provided to TDRA must be provided by an authorised employee of the licensee in a timely manner and, so far as the licensee is aware, confirmed as accurate and complete.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art6:p2"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "b1bf083cec593604bdd1dfba02f21032c842e3de8955cdd7ab40422455a22815",
+   "event_id": "E3+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 5 states that the Authority manages emergencies, crises and disasters through coordination and cooperation with relevant bodies and coordinates the roles of relevant bodies when such events occur.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art5"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "b1bf083cec593604bdd1dfba02f21032c842e3de8955cdd7ab40422455a22815",
+   "event_id": "E3+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 23 states that government bodies, the private sector and public benefit associations must provide the Authority with information and updates, and that all bodies must provide information requested by the Authority or the Board of Directors.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art23"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "b1bf083cec593604bdd1dfba02f21032c842e3de8955cdd7ab40422455a22815",
+   "event_id": "E3+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 26 states that entities must provide liaison personnel to the relevant operations centre for coordination, communication, and providing necessary information.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art26"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "b1bf083cec593604bdd1dfba02f21032c842e3de8955cdd7ab40422455a22815",
+   "event_id": "E3+followup",
+   "agent": "emergency_management",
+   "claim": "The official English translation of Federal Decree by Law No. 8 of 2025 states that the Federal Authority for Ambulance and Civil Defense is competent in ambulance and civil defense affairs and includes establishing a public warning system for the population against potential hazards, in coordination with the National Emergency, Crisis and Disasters Management Authority.",
+   "cited_chunk_ids": [
+    "ae-dl-8-2025-faacd:art4:p1"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "b1bf083cec593604bdd1dfba02f21032c842e3de8955cdd7ab40422455a22815",
+   "event_id": "E3+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 25 states that the Authority establishes arrangements to provide information on developments and protective means, including information understandable to people not proficient in Arabic and persons with special needs.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art25"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "b1bf083cec593604bdd1dfba02f21032c842e3de8955cdd7ab40422455a22815",
+   "event_id": "E3+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 15 states that the National Security Adviser may issue directives determining the emergency level, activating emergency, crisis and disaster management teams at local or national level, and determining meeting places when necessary.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art15"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "b1bf083cec593604bdd1dfba02f21032c842e3de8955cdd7ab40422455a22815",
+   "event_id": "E3+followup",
+   "agent": "emergency_management",
+   "claim": "TDRA Technical Specification TS FS 001 describes UAE-Alert as a public warning service using channels including UAE mobile networks through Cell Broadcast technology to disseminate warning alerts issued by authorities to the public in times of crisis.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "613cb917439aca89b8bbdd64dd535d746f9e7f6a0b183a8c42a19ff73474da34",
+   "event_id": "E3+followup",
+   "agent": "policy_adviser",
+   "claim": "A UAE public telecommunications license provision states that, if a competent authority declares a public emergency, the licensee shall comply with any direction given by TDRA or another competent authority concerning the licensee's property or its use or operation.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "613cb917439aca89b8bbdd64dd535d746f9e7f6a0b183a8c42a19ff73474da34",
+   "event_id": "E3+followup",
+   "agent": "policy_adviser",
+   "claim": "The same UAE licence provision states that the licensee shall comply with directions issued by TDRA or another competent authority on matters relating to public interest, safety, and/or national security.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "613cb917439aca89b8bbdd64dd535d746f9e7f6a0b183a8c42a19ff73474da34",
+   "event_id": "E3+followup",
+   "agent": "policy_adviser",
+   "claim": "The UAE telecommunications decree-law provision cited gives the Authority's Board competences including issuing general guidelines or instructions related to the telecommunications sector based on national-security or international-relations requirements after Cabinet approval, and issuing resolutions, rules, regulations, and instructions related to implementing the law and its implementing regulations.",
+   "cited_chunk_ids": [
+    "ae-dl-3-2003-telecom:art10"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "613cb917439aca89b8bbdd64dd535d746f9e7f6a0b183a8c42a19ff73474da34",
+   "event_id": "E3+followup",
+   "agent": "policy_adviser",
+   "claim": "The retrieved NCEMA establishment-law text is expressly marked as an unofficial, non-authoritative translation; it says relevant bodies, each according to its competence, shall take necessary measures for emergency, crisis, and disaster response and recovery plans in coordination with the Authority, including warning and guiding community members, and that the Executive Regulation determines the relevant bodies' roles and responsibilities.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art14"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "613cb917439aca89b8bbdd64dd535d746f9e7f6a0b183a8c42a19ff73474da34",
+   "event_id": "E3+followup",
+   "agent": "policy_adviser",
+   "claim": "A UAE Federal Authority for Ambulance and Civil Defense provision requires competent authorities and concerned entities to provide requested information related to ambulance and civil-defense works and measures, and requires competent authorities to coordinate and cooperate with that Authority in providing related services whenever necessary.",
+   "cited_chunk_ids": [
+    "ae-dl-8-2025-faacd:art7"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "613cb917439aca89b8bbdd64dd535d746f9e7f6a0b183a8c42a19ff73474da34",
+   "event_id": "E3+followup",
+   "agent": "policy_adviser",
+   "claim": "As a global technical comparison, CAP describes a false-alarm repudiation scenario in which officials issue a cancellation message that refers directly to the erroneous prior alert, downstream systems stop delivery where still in process, broadcast systems deliver a cancellation message, and other systems reset to normal.",
+   "cited_chunk_ids": [
+    "itu-x1303bis-cap:w018"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "613cb917439aca89b8bbdd64dd535d746f9e7f6a0b183a8c42a19ff73474da34",
+   "event_id": "E3+followup",
+   "agent": "policy_adviser",
+   "claim": "As a United States comparison, the FCC Hawaii report states that a cancellation is an instruction to downstream EAS and WEA equipment to cease retransmission, does not generate a new alert transmission such as an all-clear message, and does not recall messages already transmitted and displayed.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w033"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "613cb917439aca89b8bbdd64dd535d746f9e7f6a0b183a8c42a19ff73474da34",
+   "event_id": "E3+followup",
+   "agent": "policy_adviser",
+   "claim": "As a United States comparison, the FCC Hawaii report describes post-incident measures including a two-person activation/verification rule and templates for EAS and WEA messages to correct a false alarm, noting that before the false alert there were no protocols or training on how to issue a correction or what to do if a false alert was initiated.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w062"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "613cb917439aca89b8bbdd64dd535d746f9e7f6a0b183a8c42a19ff73474da34",
+   "event_id": "E3+followup",
+   "agent": "policy_adviser",
+   "claim": "As an EU comparison, the European Electronic Communications Code requires Member States to ensure that, when public warning systems for imminent or developing major emergencies and disasters are in place, public warnings are transmitted by providers of mobile number-based interpersonal communications services to concerned end-users, with possible equivalent alternatives.",
+   "cited_chunk_ids": [
+    "eu-eecc-2018-1972:art110"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "0e88a2e6b399d368036aa0dd7be5eaa6beab3201ca783fcdeeca51ed72c094d3",
+   "event_id": "E4",
+   "agent": "emergency_management",
+   "claim": "Using the non-authoritative unofficial English translation, the Authority is described as managing emergencies, crises and disasters through coordination and cooperation with relevant bodies, and coordinating the roles of relevant bodies when such events occur.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art5"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0e88a2e6b399d368036aa0dd7be5eaa6beab3201ca783fcdeeca51ed72c094d3",
+   "event_id": "E4",
+   "agent": "emergency_management",
+   "claim": "Using the non-authoritative unofficial English translation, the Authority is described as coordinating with print, audio and visual media to unify the media message during emergencies, crises or disasters.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art24"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0e88a2e6b399d368036aa0dd7be5eaa6beab3201ca783fcdeeca51ed72c094d3",
+   "event_id": "E4",
+   "agent": "emergency_management",
+   "claim": "Using the non-authoritative unofficial English translation, the Authority is described as establishing arrangements to provide information on situation developments and means of protecting the population, including information understandable to persons not proficient in Arabic and persons with special needs.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art25"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0e88a2e6b399d368036aa0dd7be5eaa6beab3201ca783fcdeeca51ed72c094d3",
+   "event_id": "E4",
+   "agent": "emergency_management",
+   "claim": "Using the non-authoritative unofficial English translation, all bodies are described as obliged to provide information requested by the Authority, and refusals by one body to provide information to another may be submitted to the Authority for necessary action.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art23"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0e88a2e6b399d368036aa0dd7be5eaa6beab3201ca783fcdeeca51ed72c094d3",
+   "event_id": "E4",
+   "agent": "emergency_management",
+   "claim": "Using the non-authoritative unofficial English translation, all entities are described as providing liaison personnel to the concerned operations centre for coordination, communication and provision of necessary information.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art26"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0e88a2e6b399d368036aa0dd7be5eaa6beab3201ca783fcdeeca51ed72c094d3",
+   "event_id": "E4",
+   "agent": "emergency_management",
+   "claim": "The official English translation, with Arabic prevailing, describes the Federal Authority for Ambulance and Civil Defense as competent to establish a public warning system for the population against potential hazards, in coordination with the National Emergency, Crisis and Disasters Management Authority.",
+   "cited_chunk_ids": [
+    "ae-dl-8-2025-faacd:art4:p1"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "0e88a2e6b399d368036aa0dd7be5eaa6beab3201ca783fcdeeca51ed72c094d3",
+   "event_id": "E4",
+   "agent": "emergency_management",
+   "claim": "Using the non-authoritative unofficial English translation, the National Security Adviser may issue directives determining the level of the emergency and activating emergency, crisis and disaster management teams at local or national level.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art15"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "adcefd842683d81eb48d0686341821e6aba2c99133e973bcc8abec41b700b2e9",
+   "event_id": "E4",
+   "agent": "policy_adviser",
+   "claim": "The official English translation of Federal Decree by Law No. (8) of 2025 states that the Federal Authority for Ambulance and Civil Defense is the federal entity competent in ambulance and civil defense affairs, and includes among its competences establishing a public warning system for the population against potential hazards, in coordination with the National Emergency, Crisis and Disasters Management Authority; the Arabic text prevails.",
+   "cited_chunk_ids": [
+    "ae-dl-8-2025-faacd:art4:p1"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "adcefd842683d81eb48d0686341821e6aba2c99133e973bcc8abec41b700b2e9",
+   "event_id": "E4",
+   "agent": "policy_adviser",
+   "claim": "The unofficial, non-authoritative English translation of Federal Decree-Law No. (2) of 2011 states that relevant bodies, each according to its competence, shall take measures including warning and guiding members of the community in coordination with the Authority, and that executive regulations determine the roles and responsibilities of relevant bodies.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art14"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "adcefd842683d81eb48d0686341821e6aba2c99133e973bcc8abec41b700b2e9",
+   "event_id": "E4",
+   "agent": "policy_adviser",
+   "claim": "The unofficial, non-authoritative English translation of Federal Decree-Law No. (2) of 2011 states that operations centres shall be established in relevant bodies by decision of their competent authority and connected to the communications and electronic linkage network with the Authority.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art13"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "adcefd842683d81eb48d0686341821e6aba2c99133e973bcc8abec41b700b2e9",
+   "event_id": "E4",
+   "agent": "policy_adviser",
+   "claim": "TDRA Public Telecommunication Licence No. (3) of 2026 provides that if a competent authority declares a public emergency, the licensee shall comply with directions given by TDRA or another competent authority, and shall comply with directions issued by TDRA or another competent authority on public interest, safety, and/or national security.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "adcefd842683d81eb48d0686341821e6aba2c99133e973bcc8abec41b700b2e9",
+   "event_id": "E4",
+   "agent": "policy_adviser",
+   "claim": "As a global technical comparison, CAP guidance describes a false-alarm scenario in which, after officials determine an alert is inappropriate, officials issue a cancellation message referring directly to the erroneous prior alert, causing systems still delivering the alert to stop and broadcast systems to deliver a cancellation message.",
+   "cited_chunk_ids": [
+    "itu-x1303bis-cap:w018"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "adcefd842683d81eb48d0686341821e6aba2c99133e973bcc8abec41b700b2e9",
+   "event_id": "E4",
+   "agent": "policy_adviser",
+   "claim": "As a global after-action comparison, the FCC Hawaii false-alert report recommended standard operating procedures specifying that corrections to false alerts be issued over the same systems used for the false alert, including EAS and WEA, as well as other available means, and include procedures for notifying the media.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w066"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "78e1c5f33b93378d02b005043a6b6759beb45536334fd7b360caf65caa342d03",
+   "event_id": "E4+followup",
+   "agent": "telecom_operator",
+   "claim": "UAE-Alert is described as a national public warning service that uses cell broadcast technology to disseminate warning alerts issued by authorities to the public in times of crisis.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "78e1c5f33b93378d02b005043a6b6759beb45536334fd7b360caf65caa342d03",
+   "event_id": "E4+followup",
+   "agent": "telecom_operator",
+   "claim": "If a competent authority declares a public emergency, the licensee must comply with directions given by TDRA or another competent authority regarding the licensee's property or its use or operation.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "78e1c5f33b93378d02b005043a6b6759beb45536334fd7b360caf65caa342d03",
+   "event_id": "E4+followup",
+   "agent": "telecom_operator",
+   "claim": "The licensee must comply with directions issued by TDRA or another competent authority on matters relating to public interest, safety, and/or national security.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "78e1c5f33b93378d02b005043a6b6759beb45536334fd7b360caf65caa342d03",
+   "event_id": "E4+followup",
+   "agent": "telecom_operator",
+   "claim": "The licensee must develop, maintain, and enhance technical capabilities to ensure effective operation, management, and restoration of its telecommunications network under emergency and contingency conditions.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art12:p2"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "78e1c5f33b93378d02b005043a6b6759beb45536334fd7b360caf65caa342d03",
+   "event_id": "E4+followup",
+   "agent": "telecom_operator",
+   "claim": "The UAE-Alert technical specification lists cell-broadcast message IDs/channel IDs for alert classes, including National Emergency Alert, Emergency Alert, Warning Alert, Public Safety Alert, and Test Alert.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w004"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "7d1420835f49641e5905719113acb9cdf9f9d6a3d2b5fbd0611e617ffa8e7fb5",
+   "event_id": "E4+followup",
+   "agent": "policy_adviser",
+   "claim": "The unofficial, non-authoritative English translation of Federal Decree-Law No. (2) of 2011 states that relevant bodies, each according to its competence, take necessary response and recovery measures in coordination with the Authority, including warning and guiding community members and dealing with the media according to clear strategies and policies approved by the Board of Directors; it also states that the Executive Regulation determines the roles and responsibilities of the relevant bodies.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art14"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "7d1420835f49641e5905719113acb9cdf9f9d6a3d2b5fbd0611e617ffa8e7fb5",
+   "event_id": "E4+followup",
+   "agent": "policy_adviser",
+   "claim": "Federal Decree by Law No. (8) of 2025 states that the Federal Authority for Ambulance and Civil Defense is the federal entity competent in ambulance and civil defense affairs, and includes among its competences establishing a public warning system for the population against potential hazards in coordination with the National Emergency, Crisis and Disasters Management Authority.",
+   "cited_chunk_ids": [
+    "ae-dl-8-2025-faacd:art4:p1"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "7d1420835f49641e5905719113acb9cdf9f9d6a3d2b5fbd0611e617ffa8e7fb5",
+   "event_id": "E4+followup",
+   "agent": "policy_adviser",
+   "claim": "The TDRA public telecommunications licence provides that, if a competent authority declares a public emergency, the licensee must comply with directions given by the TDRA or other competent authority regarding the licensee's property or its use or operation, and must comply with directions on public interest, safety, and national security.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "7d1420835f49641e5905719113acb9cdf9f9d6a3d2b5fbd0611e617ffa8e7fb5",
+   "event_id": "E4+followup",
+   "agent": "policy_adviser",
+   "claim": "As a global technical comparison, the CAP recommendation describes a false-alarm scenario in which officials, after determining an alert is inappropriate, issue a cancellation message referring directly to the erroneous prior alert; downstream systems then stop delivery, broadcast a cancellation, or reset.",
+   "cited_chunk_ids": [
+    "itu-x1303bis-cap:w018"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "7d1420835f49641e5905719113acb9cdf9f9d6a3d2b5fbd0611e617ffa8e7fb5",
+   "event_id": "E4+followup",
+   "agent": "policy_adviser",
+   "claim": "As a global comparison, the FCC Hawaii false-alert report recommended that false-alert correction procedures specify that corrections be issued over the same systems used for the false alert, including EAS and WEA, and also include media notification procedures.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w066"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "0e9c45163d656fc4b5bc7ecc700ecbe5f90f482bd44fcf23969165bf9616012d",
+   "event_id": "E4+followup",
+   "agent": "emergency_management",
+   "claim": "In the unofficial, non-authoritative English translation, Article 5 states that the Authority manages emergencies, crises and disasters through coordination and cooperation with the relevant bodies, and coordinates the roles of relevant bodies when emergencies, crises or disasters occur.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art5"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0e9c45163d656fc4b5bc7ecc700ecbe5f90f482bd44fcf23969165bf9616012d",
+   "event_id": "E4+followup",
+   "agent": "emergency_management",
+   "claim": "In the unofficial, non-authoritative English translation, Article 23 states that all government bodies, the private sector and public benefit associations must provide the Authority with information and updates, and that all bodies must provide information requested by the Authority or its Board of Directors.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art23"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0e9c45163d656fc4b5bc7ecc700ecbe5f90f482bd44fcf23969165bf9616012d",
+   "event_id": "E4+followup",
+   "agent": "emergency_management",
+   "claim": "In the unofficial, non-authoritative English translation, Article 26 states that entities provide liaison personnel to the concerned operations centre for coordination, communication, and providing necessary information.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art26"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0e9c45163d656fc4b5bc7ecc700ecbe5f90f482bd44fcf23969165bf9616012d",
+   "event_id": "E4+followup",
+   "agent": "emergency_management",
+   "claim": "In the unofficial, non-authoritative English translation, Article 25 states that the Authority establishes arrangements to provide information on situation developments and means of protecting the population, including information understandable to persons not proficient in Arabic and persons with special needs.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art25"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0e9c45163d656fc4b5bc7ecc700ecbe5f90f482bd44fcf23969165bf9616012d",
+   "event_id": "E4+followup",
+   "agent": "emergency_management",
+   "claim": "The official English translation of Article 4 of Federal Decree by Law No. 8 of 2025, with Arabic text prevailing, states that the Federal Authority for Ambulance and Civil Defense is the federal entity competent in ambulance and civil defense affairs and includes establishing a public warning system for the population against potential hazards, in coordination with the National Emergency, Crisis and Disasters Management Authority.",
+   "cited_chunk_ids": [
+    "ae-dl-8-2025-faacd:art4:p1"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "0e9c45163d656fc4b5bc7ecc700ecbe5f90f482bd44fcf23969165bf9616012d",
+   "event_id": "E4+followup",
+   "agent": "emergency_management",
+   "claim": "In the unofficial, non-authoritative English translation, Article 15 states that the National Security Adviser may issue directives determining the level of an emergency and activating emergency, crisis and disaster management teams at local or national level.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art15"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "e8e04e87b29439dda958cda714cb986d7f8f53c54bbb131801eeccee01872e37",
+   "event_id": "E5",
+   "agent": "telecom_operator",
+   "claim": "The UAE-Alert public warning service uses cell broadcast technology through UAE mobile networks to disseminate warning alerts issued by authorities to the public in times of crisis.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "e8e04e87b29439dda958cda714cb986d7f8f53c54bbb131801eeccee01872e37",
+   "event_id": "E5",
+   "agent": "telecom_operator",
+   "claim": "If a competent authority declares that a public emergency has arisen, the Licensee must comply with directions given by the TDRA or another competent authority concerning the Licensee's property or its use or operation.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "e8e04e87b29439dda958cda714cb986d7f8f53c54bbb131801eeccee01872e37",
+   "event_id": "E5",
+   "agent": "telecom_operator",
+   "claim": "The Licensee must comply with directions that the TDRA or another competent authority issues on matters relating to public interest, safety, and/or national security.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "e8e04e87b29439dda958cda714cb986d7f8f53c54bbb131801eeccee01872e37",
+   "event_id": "E5",
+   "agent": "telecom_operator",
+   "claim": "The Licensee must develop, maintain, and enhance technical capabilities to ensure effective operation, management, and restoration of its telecommunications network under emergency and contingency conditions.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art12:p2"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "e8e04e87b29439dda958cda714cb986d7f8f53c54bbb131801eeccee01872e37",
+   "event_id": "E5",
+   "agent": "telecom_operator",
+   "claim": "The UAE-Alert technical specification includes a Class 8 'Test Alert' category in its table of cell broadcast information and mobile-device requirements.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w004"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+   "event_id": "E5+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 5 says the Authority manages emergencies, crises and disasters through coordination and cooperation with relevant bodies and coordinates the roles of relevant bodies when emergencies, crises or disasters occur.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art5"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+   "event_id": "E5+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 24 says the Authority coordinates with print, audio and visual media to unify the media message during emergencies, crises or disasters.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art24"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+   "event_id": "E5+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 25 says the Authority establishes arrangements to provide information on situation developments and protective means, including information understandable by populations not proficient in Arabic and by persons with special needs.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art25"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+   "event_id": "E5+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 23 says government bodies, the private sector, and public benefit associations must provide the Authority with information and updates, and all bodies must provide information requested by the Authority or its Board of Directors.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art23"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+   "event_id": "E5+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 26 says entities provide liaison personnel to the relevant operations centre for coordination, communication, and provision of necessary information.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art26"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+   "event_id": "E5+followup",
+   "agent": "emergency_management",
+   "claim": "The official English translation of Federal Decree by Law No. 8 of 2025 says the Federal Authority for Ambulance and Civil Defense establishes a public warning system for the population against potential hazards, in coordination with the National Emergency, Crisis and Disasters Management Authority.",
+   "cited_chunk_ids": [
+    "ae-dl-8-2025-faacd:art4:p1"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+   "event_id": "E5+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 15 says the National Security Adviser may issue directives determining the level of emergency and activating emergency, crisis and disaster management teams at the local or national level.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art15"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+   "event_id": "E5+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 12 says the Implementing Regulation determines classification of emergency, crisis and disaster situations and the responsibilities and roles of relevant bodies according to response plans.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art12"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "e0c3f79286bbfa0cb1d59dcb811a3b774bf8927362a9edd803fe0012b52fd302",
+   "event_id": "E5+followup",
+   "agent": "emergency_management",
+   "claim": "The TDRA public telecommunications licence passage says that if a competent authority declares a public emergency, the licensee must comply with directions given by TDRA or another competent authority regarding the licensee's property or its use or operation, and must also comply with TDRA or other competent-authority directions on public interest, safety, or national security matters.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "20331f004e7c278df3f2b1d50c82828dc406efc6c3cd0402d5876e471c087617",
+   "event_id": "E5+followup",
+   "agent": "policy_adviser",
+   "claim": "TDRA TS FS 001 describes UAE-Alert as a National Public Warning Service using cell broadcast technology to disseminate warning alerts issued by authorities to the public in times of crisis, and states that the specification’s main scope is enabling cell broadcast service in mobile devices operating on UAE mobile networks.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "20331f004e7c278df3f2b1d50c82828dc406efc6c3cd0402d5876e471c087617",
+   "event_id": "E5+followup",
+   "agent": "policy_adviser",
+   "claim": "TDRA TS FS 001 sets handset-side requirements including default receipt of emergency alerts, immediate recognisability, user cancellation of the message indication, later review, duplicate detection, Arabic and English display support, display without user interaction, and no handset capability to reply, forward, or copy received emergency alerts.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w003"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "20331f004e7c278df3f2b1d50c82828dc406efc6c3cd0402d5876e471c087617",
+   "event_id": "E5+followup",
+   "agent": "policy_adviser",
+   "claim": "In the non-authoritative English translation of Federal Decree-Law No. 2 of 2011, Article 14 says relevant bodies, each according to its competence, shall take necessary response and recovery measures in coordination with the Authority, including warning and guiding the community, and says the Executive Regulation determines the roles and responsibilities of relevant bodies for those measures.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art14"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "20331f004e7c278df3f2b1d50c82828dc406efc6c3cd0402d5876e471c087617",
+   "event_id": "E5+followup",
+   "agent": "policy_adviser",
+   "claim": "In the non-authoritative English translation of Federal Decree-Law No. 2 of 2011, Article 13 says relevant bodies, each according to its competence, take prevention and preparedness measures in coordination with the Authority, including preparing response plans and establishing operations centres connected to the communications and electronic linkage network with the Authority.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art13"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "20331f004e7c278df3f2b1d50c82828dc406efc6c3cd0402d5876e471c087617",
+   "event_id": "E5+followup",
+   "agent": "policy_adviser",
+   "claim": "As a global technical comparison, ITU-T CAP guidance describes a false-alarm scenario in which officials who determine an alert is inappropriate issue a cancellation message that refers directly to the erroneous prior alert; systems still delivering the alert stop, broadcast systems deliver a cancellation message, and other systems reset.",
+   "cited_chunk_ids": [
+    "itu-x1303bis-cap:w018"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "20331f004e7c278df3f2b1d50c82828dc406efc6c3cd0402d5876e471c087617",
+   "event_id": "E5+followup",
+   "agent": "policy_adviser",
+   "claim": "As a United States comparison, the FCC Hawaii false-alert report states that a cancellation instruction to downstream EAS and WEA equipment ceases retransmission, but does not generate a new alert transmission and does not recall messages already transmitted and displayed.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w033"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "20331f004e7c278df3f2b1d50c82828dc406efc6c3cd0402d5876e471c087617",
+   "event_id": "E5+followup",
+   "agent": "policy_adviser",
+   "claim": "As a United States comparison, the FCC Hawaii false-alert report states that HI-EMA created EAS and WEA correction-message templates after the incident, and that before the incident HI-EMA did not have protocols or training for issuing a correction or handling a false alert.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w062"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "20331f004e7c278df3f2b1d50c82828dc406efc6c3cd0402d5876e471c087617",
+   "event_id": "E5+followup",
+   "agent": "policy_adviser",
+   "claim": "As a United States comparison, the FCC Hawaii report recommended that state emergency-management agencies consult with State Emergency Communications Committees at least annually to ensure procedures, including initiation and cancellation of actual alerts and tests, are mutually understood, agreed upon, and documented in the State EAS Plan.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w067"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "6a6a5b1273569b43134be6362881c3efe2bb1bba557121b32507110cd56fdb56",
+   "event_id": "E6",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 5 states that the Authority manages emergencies, crises and disasters through coordination and cooperation with relevant bodies and coordinates the roles of relevant bodies when emergencies, crises or disasters occur.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art5"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "6a6a5b1273569b43134be6362881c3efe2bb1bba557121b32507110cd56fdb56",
+   "event_id": "E6",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 25 states that the Authority establishes arrangements to provide information on situation developments and means of protecting the population, including information understandable to persons not proficient in Arabic and persons with special needs.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art25"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "6a6a5b1273569b43134be6362881c3efe2bb1bba557121b32507110cd56fdb56",
+   "event_id": "E6",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 23 states that all bodies are obliged to provide information requested by the Authority or its Board of Directors, and that refusals between bodies to provide information are submitted to the Authority for necessary action.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art23"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "6a6a5b1273569b43134be6362881c3efe2bb1bba557121b32507110cd56fdb56",
+   "event_id": "E6",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 26 states that entities provide liaison personnel to the concerned operations centre for coordination, communication and providing necessary information.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art26"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "6a6a5b1273569b43134be6362881c3efe2bb1bba557121b32507110cd56fdb56",
+   "event_id": "E6",
+   "agent": "emergency_management",
+   "claim": "Article 4 of Federal Decree by Law No. 8 of 2025 states that the Federal Authority for Ambulance and Civil Defense is competent in ambulance and civil defense affairs and shall establish a public warning system for the population against potential hazards, in coordination with the National Emergency, Crisis and Disasters Management Authority.",
+   "cited_chunk_ids": [
+    "ae-dl-8-2025-faacd:art4:p1"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "6a6a5b1273569b43134be6362881c3efe2bb1bba557121b32507110cd56fdb56",
+   "event_id": "E6",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 15 states that the National Security Adviser may issue directives determining the level of the emergency and activating emergency, crisis and disaster management teams when necessary.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art15"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "6a6a5b1273569b43134be6362881c3efe2bb1bba557121b32507110cd56fdb56",
+   "event_id": "E6",
+   "agent": "emergency_management",
+   "claim": "The unofficial, non-authoritative English translation of Article 12 states that the Implementing Regulation determines the classification of emergency, crisis and disaster situations and the responsibilities and roles of relevant bodies according to the response plans.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art12"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "f8304672f068391f97a91b9c6ff7b4415963b0ee990fc7a666b23b5c9c2e68e7",
+   "event_id": "E6",
+   "agent": "policy_adviser",
+   "claim": "The provided UAE Decree-Law passage is marked as an unofficial, non-authoritative English translation; it says relevant bodies, each according to its competence, take response and recovery measures in coordination with the Authority, including warning and guiding the community and dealing with the media according to strategies and policies approved by the Board of Directors, and that the Executive Regulation determines roles and responsibilities.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art14"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "f8304672f068391f97a91b9c6ff7b4415963b0ee990fc7a666b23b5c9c2e68e7",
+   "event_id": "E6",
+   "agent": "policy_adviser",
+   "claim": "The provided UAE telecommunications licence passage says that, if a competent authority declares a public emergency, the licensee must comply with directions given by TDRA or another competent authority regarding the licensee's property or its use or operation; it also says the licensee must comply with directions on matters relating to public interest, safety and/or national security.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "f8304672f068391f97a91b9c6ff7b4415963b0ee990fc7a666b23b5c9c2e68e7",
+   "event_id": "E6",
+   "agent": "policy_adviser",
+   "claim": "As a global technical comparison, CAP 1.2 describes a false-alarm scenario in which, after officials determine an alert is inappropriate, officials issue a cancellation message referring directly to the erroneous prior alert, causing delivery systems to stop, broadcast systems to deliver a cancellation message, or other systems to reset.",
+   "cited_chunk_ids": [
+    "itu-x1303bis-cap:w018"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "f8304672f068391f97a91b9c6ff7b4415963b0ee990fc7a666b23b5c9c2e68e7",
+   "event_id": "E6",
+   "agent": "policy_adviser",
+   "claim": "As a global comparison from the Hawaii false-alert review, a cancellation message to downstream EAS and WEA equipment was described as an instruction to cease retransmission, not as a new alert transmission or an 'all clear' message, and not as a recall of messages already transmitted and displayed.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w033"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "f8304672f068391f97a91b9c6ff7b4415963b0ee990fc7a666b23b5c9c2e68e7",
+   "event_id": "E6",
+   "agent": "policy_adviser",
+   "claim": "As a global comparison from the Hawaii false-alert review, after the false alert, templates for EAS and WEA messages to correct a false alarm were created because prior protocols or training on how to issue a correction or what to do after a false alert were not in place.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w062"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "239d1629d5da22f6b2d25f74866b1ca5ea1409fd5eccf563809e914a26fc72a9",
+   "event_id": "E6+followup",
+   "agent": "telecom_operator",
+   "claim": "If a competent authority declares that a public emergency has arisen, the Licensee must comply with directions given by TDRA or another competent authority with respect to the Licensee's property or its use or operation.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "239d1629d5da22f6b2d25f74866b1ca5ea1409fd5eccf563809e914a26fc72a9",
+   "event_id": "E6+followup",
+   "agent": "telecom_operator",
+   "claim": "The Licensee must comply with directions issued by TDRA or another competent authority on matters relating to public interest, safety, and/or national security.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "239d1629d5da22f6b2d25f74866b1ca5ea1409fd5eccf563809e914a26fc72a9",
+   "event_id": "E6+followup",
+   "agent": "telecom_operator",
+   "claim": "UAE-Alert is a national public warning service using cell broadcast technology to disseminate warning alerts issued by authorities to the public in times of crisis, with UAE mobile networks identified as one channel.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "239d1629d5da22f6b2d25f74866b1ca5ea1409fd5eccf563809e914a26fc72a9",
+   "event_id": "E6+followup",
+   "agent": "telecom_operator",
+   "claim": "Cell Broadcast Service is defined as broadcasting messages to mobile phones of a large number of citizens in a specific location within a specific time frame, with the area ranging from one cell to the entire network.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w002"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "239d1629d5da22f6b2d25f74866b1ca5ea1409fd5eccf563809e914a26fc72a9",
+   "event_id": "E6+followup",
+   "agent": "telecom_operator",
+   "claim": "The Licensee must develop, maintain, and regularly enhance technical capabilities to ensure effective operation, management, and restoration of its Telecommunications Network under emergency and contingency conditions.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art12:p2"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "239d1629d5da22f6b2d25f74866b1ca5ea1409fd5eccf563809e914a26fc72a9",
+   "event_id": "E6+followup",
+   "agent": "telecom_operator",
+   "claim": "Cell broadcast must be enabled for GSM, UMTS, LTE, 5G, and future radio technologies under the cited UAE-Alert technical specification.",
+   "cited_chunk_ids": [
+    "ae-tdra-ts-fs-001:w004"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "f7b631e5d8f4582e8b6d0ec4af2a47375241a2d1692d3c71702e40ff00cabdb1",
+   "event_id": "E6+followup",
+   "agent": "policy_adviser",
+   "claim": "The unofficial, non-authoritative English translation of UAE Federal Decree-Law No. 2 of 2011 Article 14 states that relevant bodies, each according to its competence, take response and recovery measures in coordination with the Authority, including warning and guiding the community and dealing with the media according to clear strategies and policies approved by the Board of Directors; it also states that the Executive Regulation determines the roles and responsibilities of relevant bodies for those measures.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art14"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "f7b631e5d8f4582e8b6d0ec4af2a47375241a2d1692d3c71702e40ff00cabdb1",
+   "event_id": "E6+followup",
+   "agent": "policy_adviser",
+   "claim": "The unofficial, non-authoritative English translation of UAE Federal Decree-Law No. 2 of 2011 Article 13 states that relevant bodies, each according to its competence, take prevention and preparedness measures in coordination with the Authority, including preparing response plans and training/exercise programmes, and establishing operations centres connected with the Authority’s communications and electronic linkage network.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art13"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "f7b631e5d8f4582e8b6d0ec4af2a47375241a2d1692d3c71702e40ff00cabdb1",
+   "event_id": "E6+followup",
+   "agent": "policy_adviser",
+   "claim": "TDRA Public Telecommunication Licence No. 3 of 2026 Article 8 states that, where a competent authority declares a public emergency, the licensee must comply with directions given by TDRA or another competent authority concerning the licensee’s property or its use or operation; it also requires compliance with directions on matters relating to public interest, safety, and/or national security.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "f7b631e5d8f4582e8b6d0ec4af2a47375241a2d1692d3c71702e40ff00cabdb1",
+   "event_id": "E6+followup",
+   "agent": "policy_adviser",
+   "claim": "As a global technical comparison, ITU-T CAP 1.2 describes a false-alarm repudiation scenario in which officials, after determining an alert is inappropriate, issue a cancellation message referring directly to the erroneous prior alert; systems still delivering the alert stop, broadcast systems deliver a cancellation message, and other systems reset.",
+   "cited_chunk_ids": [
+    "itu-x1303bis-cap:w018"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "f7b631e5d8f4582e8b6d0ec4af2a47375241a2d1692d3c71702e40ff00cabdb1",
+   "event_id": "E6+followup",
+   "agent": "policy_adviser",
+   "claim": "As a global comparison, the FCC Hawaii false-alert report distinguishes a cancellation instruction to downstream EAS/WEA equipment from an all-clear or corrective public message, stating that cancellation does not generate a new alert transmission and does not recall messages already displayed.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w033"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "f7b631e5d8f4582e8b6d0ec4af2a47375241a2d1692d3c71702e40ff00cabdb1",
+   "event_id": "E6+followup",
+   "agent": "policy_adviser",
+   "claim": "As a global comparison, the FCC Hawaii false-alert report states that HI-EMA later created EAS and WEA correction-message templates, and that before the false alert it did not have protocols or training for issuing a correction or responding to a false alert.",
+   "cited_chunk_ids": [
+    "us-fcc-hawaii-2018:w062"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "0f9a1b3c86596bf8ba43e21d566d38a915ab56ccac82caa13bbe67c28eb7c0d7",
+   "event_id": "E6+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial English translation of Article 5 says the Authority manages emergencies, crises and disasters through coordination and cooperation with relevant bodies and coordinates the roles of relevant bodies when such events occur.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art5"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0f9a1b3c86596bf8ba43e21d566d38a915ab56ccac82caa13bbe67c28eb7c0d7",
+   "event_id": "E6+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial English translation of Article 24 says the Authority coordinates with print, audio and visual media with the aim of unifying the media message during emergencies, crises or disasters.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art24"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0f9a1b3c86596bf8ba43e21d566d38a915ab56ccac82caa13bbe67c28eb7c0d7",
+   "event_id": "E6+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial English translation of Article 25 says the Authority establishes arrangements to provide information on developments in the situation and means of protecting the population, including information understandable to people not proficient in Arabic and persons with special needs.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art25"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0f9a1b3c86596bf8ba43e21d566d38a915ab56ccac82caa13bbe67c28eb7c0d7",
+   "event_id": "E6+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial English translation of Article 23 says all bodies must provide information requested by the Authority or its Board, and that refusals to provide information between bodies are submitted to the Authority for necessary action.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art23"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0f9a1b3c86596bf8ba43e21d566d38a915ab56ccac82caa13bbe67c28eb7c0d7",
+   "event_id": "E6+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial English translation of Article 26 says entities provide liaison personnel to the relevant operations centre for coordination, communication and providing necessary information.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art26"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0f9a1b3c86596bf8ba43e21d566d38a915ab56ccac82caa13bbe67c28eb7c0d7",
+   "event_id": "E6+followup",
+   "agent": "emergency_management",
+   "claim": "The official English translation of Article 4 of Federal Decree by Law No. 8 of 2025, with Arabic text prevailing, says the Federal Authority for Ambulance and Civil Defense is competent in ambulance and civil defense affairs and has competence to establish a public warning system for the population against potential hazards in coordination with the National Emergency, Crisis and Disasters Management Authority.",
+   "cited_chunk_ids": [
+    "ae-dl-8-2025-faacd:art4:p1"
+   ],
+   "evidence_status": "confirmed"
+  },
+  {
+   "record": "0f9a1b3c86596bf8ba43e21d566d38a915ab56ccac82caa13bbe67c28eb7c0d7",
+   "event_id": "E6+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial English translation of Article 15 says the National Security Adviser may issue directives determining the level of the emergency and activating emergency, crisis and disaster management teams at the local or national level whenever necessary.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art15"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0f9a1b3c86596bf8ba43e21d566d38a915ab56ccac82caa13bbe67c28eb7c0d7",
+   "event_id": "E6+followup",
+   "agent": "emergency_management",
+   "claim": "The unofficial English translation of Article 12 says the Implementing Regulation determines the classification of emergency, crisis and disaster situations and the responsibilities and roles of relevant bodies according to response plans.",
+   "cited_chunk_ids": [
+    "ae-dl-2-2011-ncema-en-unofficial:art12"
+   ],
+   "evidence_status": "partially_supported"
+  },
+  {
+   "record": "0f9a1b3c86596bf8ba43e21d566d38a915ab56ccac82caa13bbe67c28eb7c0d7",
+   "event_id": "E6+followup",
+   "agent": "emergency_management",
+   "claim": "The TDRA public telecommunications licence passage says a licensee must comply with directions issued by TDRA or another competent authority on matters relating to public interest, safety and/or national security.",
+   "cited_chunk_ids": [
+    "ae-tdra-licence-3-2026:art8"
+   ],
+   "evidence_status": "confirmed"
+  }
+ ],
+ "dropped": []
+}

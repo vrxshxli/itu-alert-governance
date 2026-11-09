@@ -1,0 +1,24 @@
+# Retrieval test set. Each question names the chunk-id prefixes that a correct retrieval must surface.
+# Written from articles read in the official sources (see kb/AUTHORITY_RULES.md), BEFORE running the test.
+# `mode` selects the authority filter; `needs_translation: true` questions are skipped until the NCEMA unofficial
+# translation has been built. Results are reported as hit@1/hit@3/hit@5; no pass threshold is claimed.
+questions:
+  - {id: Q01, mode: current, q: "Which federal authority establishes the public warning system for the population?", expect: ["ae-dl-8-2025-faacd:art4"]}
+  - {id: Q02, mode: current, q: "What must a telecom licensee do when a competent authority declares a public emergency?", expect: ["ae-tdra-licence-3-2026:art8"]}
+  - {id: Q03, mode: current, q: "Which technology delivers the UAE national public warning service to mobile phones?", expect: ["ae-tdra-ts-fs-001:"]}
+  - {id: Q04, mode: current, q: "How must a handset display an incoming UAE-Alert warning message?", expect: ["ae-tdra-ts-fs-001:"]}
+  - {id: Q05, mode: current, q: "What is the penalty for spreading false news during an emergency?", expect: ["ae-dl-34-2021-rumours:art52"]}
+  - {id: Q06, mode: current, q: "Which body may issue general telecom sector directives in the interest of national security?", expect: ["ae-dl-3-2003-telecom:art3", "ae-dl-3-2003-telecom:art10"]}
+  - {id: Q07, mode: current, q: "Does the personal data protection law apply to government entities?", expect: ["ae-dl-45-2021-pdpl:art2"]}
+  - {id: Q08, mode: current, q: "Which law replaced the 2024 civil defence authority law?", expect: ["ae-dl-8-2025-faacd:art19"]}
+  - {id: Q09, mode: current, needs_translation: true, q: "Who may determine the emergency level and activate national emergency management teams?", expect: ["ae-dl-2-2011-ncema-en-unofficial:art15"]}
+  - {id: Q10, mode: current, needs_translation: true, q: "Who coordinates the unified media message during an emergency?", expect: ["ae-dl-2-2011-ncema-en-unofficial:art24"]}
+  - {id: Q11, mode: current, needs_translation: true, q: "What information must be provided to non-Arabic speakers and people with special needs in emergencies?", expect: ["ae-dl-2-2011-ncema-en-unofficial:art25"]}
+  - {id: Q12, mode: current, needs_translation: true, q: "What are the competences of the national emergency authority?", expect: ["ae-dl-2-2011-ncema-en-unofficial:art5"]}
+  - {id: Q13, mode: global, q: "Which providers must transmit public warnings to end-users under EU rules?", expect: ["eu-eecc-2018-1972:art110"]}
+  - {id: Q14, mode: global, q: "How long did it take to correct the false ballistic missile alert in Hawaii?", expect: ["us-fcc-hawaii-2018:"]}
+  - {id: Q15, mode: global, q: "How does the Common Alerting Protocol withdraw or supersede an earlier alert message?", expect: ["itu-x1303bis-cap:"]}
+  # Q16 first ran with mode: global and MISSED because no filter mode included authority_status 'framework' (our bug,
+  # found 2026-11-08, fixed by adding mode 'framework'). Q17 was added after seeing that result to exercise the fixed path.
+  - {id: Q16, mode: framework, q: "Which AI Readiness Framework dimension covers AI and policies?", expect: ["itu-ai-ready-2-0:"]}
+  - {id: Q17, mode: framework, q: "Which node of the Y.3172 machine learning pipeline enforces policy on model output before distribution?", expect: ["itu-y3172-2019:"]}

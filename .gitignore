@@ -1,0 +1,22 @@
+# secrets
+.env
+.env.*
+!.env.example
+# local model weights (downloaded per README)
+models/
+# original document files: redistribution terms checked per source in kb/sources.md
+kb/raw/
+# local vector store and caches (rebuilt with one command)
+kb/chroma/
+.cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+kb/chroma_compat_check/
+.cache/
+kb/chroma_step00_check/
+kb/text/
+kb/export/
+.venv/
+venv/

@@ -1,0 +1,33 @@
+# Run configuration. Written into every audit record (run_id, kb_version, model).
+models:
+  agent: gpt-5.5-2026-04-23        # agents and gap analysis; dated snapshot pinned for reproducibility
+  cheap: gpt-5.4-mini-2026-03-17   # verifier/tagging; both names confirmed in list_models() for this key on 2026-11-08
+  substitutions:
+    - date: "2026-11-08"
+      from: "gpt-5.6"
+      to: "gpt-5.5-2026-04-23 (agent), gpt-5.4-mini-2026-03-17 (verifier)"
+      reason: "gpt-5.6 is not listed for this key (check_step00.py). Only variants gpt-5.6-luna/-sol/-terra are listed; their
+               differences are undocumented to us, so they are not used. Dated snapshots chosen over aliases for reproducibility."
+    - date: "2026-11-08"
+      from: "claude-sonnet-5-5 / claude-haiku-5-5 (brief section 11)"
+      to: "OpenAI gpt-5.6"
+      reason: "Team has OpenAI API access, no Anthropic key."
+llm:
+  provider: openai        # openai | anthropic
+  max_tokens: 8000        # GPT-5-series counts reasoning tokens against this budget
+  timeout_seconds: 180
+  cache_dir: .cache/llm   # disk cache keyed by sha256 of (provider, model, system, prompt, max_tokens)
+  # No temperature setting: GPT-5-series models accept only the default. Reproducibility comes from the disk cache
+  # (identical inputs replay identical outputs) and schema-constrained prompts; it is not claimed bit-for-bit for
+  # fresh calls.
+embeddings:
+  model: BAAI/bge-small-en-v1.5
+  path: models/bge-small-en-v1.5
+  backend: onnx           # onnx/model.onnx required (no PyTorch in the build sandbox)
+  dim: 384
+kb:
+  version: kb-1.0
+  registry: kb/sources.yaml
+  chroma_dir: kb/chroma
+  collection: kb_main     # same collection name as the ITU reference code
+seed: 26250

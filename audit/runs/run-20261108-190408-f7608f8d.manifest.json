@@ -1,0 +1,26 @@
+{
+ "run_id": "run-20261108-190408-f7608f8d",
+ "scenario_id": "northvale-false-alert-v1",
+ "models": {
+  "agent": "gpt-5.5-2026-04-23",
+  "cheap": "gpt-5.4-mini-2026-03-17",
+  "substitutions": [
+   {
+    "date": "2026-11-08",
+    "from": "gpt-5.6",
+    "to": "gpt-5.5-2026-04-23 (agent), gpt-5.4-mini-2026-03-17 (verifier)",
+    "reason": "gpt-5.6 is not listed for this key (check_step00.py). Only variants gpt-5.6-luna/-sol/-terra are listed; their differences are undocumented to us, so they are not used. Dated snapshots chosen over aliases for reproducibility."
+   },
+   {
+    "date": "2026-11-08",
+    "from": "claude-sonnet-5-5 / claude-haiku-5-5 (brief section 11)",
+    "to": "OpenAI gpt-5.6",
+    "reason": "Team has OpenAI API access, no Anthropic key."
+   }
+  ]
+ },
+ "kb_version": "kb-1.0",
+ "seed": 26250,
+ "grounded_records": 22,
+ "baseline_records": 8
+}

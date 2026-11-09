@@ -1,0 +1,37 @@
+# FICTIONAL scenario. No real internal information; no real incident is described. Civil alert governance only.
+# Fictional district: "Northvale". The only real-world anchor is the public NCEMA notice of 26 June 2026 (a technical malfunction
+# in the early-warning system resulted in incorrect warning messages); nothing here claims how that event unfolded internally.
+# Information is released progressively (t_offset, minutes) and deliberately unevenly: each event is private to the listed agents.
+scenario_id: northvale-false-alert-v1
+title: "A public alert reaches handsets that nobody can account for"
+events:
+  - event_id: E1
+    t_offset: 0
+    visible_to: [telecom_operator]
+    content: "Network monitoring shows a cell-broadcast message delivered to roughly 40,000 handsets in the fictional Northvale district. The operator's alert-request log has no matching request. The message heading reads 'Emergency warning' and contains no actionable instruction."
+    uncertainty: "Origin unknown. Whether the message came through an authorised request path is not known to the operator."
+  - event_id: E2
+    t_offset: 4
+    visible_to: [emergency_management]
+    content: "Public reports (unverified, from several social-media accounts) say residents of Northvale received an 'Emergency warning' on their phones. No official source has been identified. Some posts say people are calling relatives and a few are leaving work."
+    uncertainty: "Reports are unverified; the alert text is not confirmed; the scale of public reaction is unknown."
+  - event_id: E3
+    t_offset: 9
+    visible_to: [telecom_operator]
+    content: "The operator's engineers confirm the message passed through the shared alert gateway interface and was broadcast by the operator's network. The gateway log shows no authenticated originator field for this message."
+    uncertainty: "Who or what produced the message is still unknown; whether other operators were affected is not known to this operator."
+  - event_id: E4
+    t_offset: 15
+    visible_to: [emergency_management, policy_adviser]
+    content: "A municipal operations room in Northvale asks whether the alert is genuine and whether residents should be told to act. A second municipal office asks the same. Neither received any instruction through official channels."
+    uncertainty: "No confirmation from any source whether the alert is genuine."
+  - event_id: E5
+    t_offset: 22
+    visible_to: [telecom_operator]
+    content: "The gateway vendor's engineer reports a configuration fault on the gateway: a test-mode setting was left enabled, so a message intended only for an internal test profile was released to the live Northvale cell group. The vendor says it cannot itself cancel or correct a message already delivered."
+    uncertainty: "Vendor statement only; not independently confirmed; correction procedure for delivered messages is unclear to the operator."
+  - event_id: E6
+    t_offset: 30
+    visible_to: [emergency_management, policy_adviser]
+    content: "Journalists ask which body is responsible for telling the public the alert was sent in error and who will do it. Several residents ask on public channels whether it is safe to ignore the alert."
+    uncertainty: "No agreed owner of a public correction is visible to these two roles; the operator's findings (E3, E5) have not been shared with them."
